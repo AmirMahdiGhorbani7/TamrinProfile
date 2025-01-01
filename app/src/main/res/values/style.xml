@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Amir">
-        <item name="backgroundColor">#AA4750B3</item>
-
-
+        <item name="backgroundColor">#89F07B</item>
     </style>
 </resources>

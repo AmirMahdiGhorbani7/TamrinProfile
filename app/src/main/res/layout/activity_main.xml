@@ -9,12 +9,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 <ImageView
-    style="@style/Amir"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@mipmap/ic_launcher"/>
+
+    android:background="@drawable/btn_corners"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:src="@mipmap/ic_launcher_round"
+    />
 <TextView
-    style="@style/Amir"
     android:background="@drawable/btn_corners"
     android:layout_marginTop="20dp"
     android:layout_width="wrap_content"
@@ -28,32 +29,37 @@
         android:orientation="vertical"
         android:gravity="center">
     <EditText
-        android:background="@drawable/btn_corners"
-        style="@style/Amir"
         android:id="@+id/name"
-        android:textSize="40dp"
-        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/btn_corners"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:hint="Name" />
+        android:hint="Name"
+        style="@style/Amir"/>
 
     <EditText
-        android:background="@drawable/btn_corners"
         android:id="@+id/family"
+        android:gravity="center"
+        android:background="@drawable/btn_corners"
         android:textSize="40dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:hint="Family" />
+        android:hint="Family"
+        style="@style/Amir"/>
 
     <EditText
-        android:background="@drawable/btn_corners"
         android:id="@+id/age"
+        android:gravity="center"
+        android:background="@drawable/btn_corners"
         android:textSize="40dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:hint="Age" />
+        android:hint="Age"
+        style="@style/Amir"/>
 
     <Button
         android:id="@+id/enter"

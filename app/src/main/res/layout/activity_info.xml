@@ -9,6 +9,7 @@
     tools:context=".Info"
     android:gravity="center">
 <TextView
+    style="@style/Amir"
     android:background="@drawable/btn_corners"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
